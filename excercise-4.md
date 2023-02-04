@@ -1,4 +1,5 @@
-## Full stack developer certificate part 0 with exercise 4-6
+## Full stack developer certificate part 0 with exercise 4
+
 ```mermaid
 sequenceDiagram
   participant browser
@@ -25,3 +26,4 @@ sequenceDiagram
   deactivate server
 ```
 ## Then browser executes the callback function which renders the notes
+## There will be five HTTP requests in this process
