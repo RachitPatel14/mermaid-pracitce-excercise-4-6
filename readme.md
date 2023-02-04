@@ -2,7 +2,7 @@
 ```mermaid
 participant browser
 participant server
-browser-->server: GET page on that url
+browser-->server: get page on that url
 activate server
 server-->bbrowser: HTML document
 deactivate server
