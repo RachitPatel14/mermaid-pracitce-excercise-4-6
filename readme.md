@@ -3,5 +3,5 @@
 participant browser
 participant server
 browser-->server: get page on that url
-server-->bbrowser: HTML document
+server-->browser: HTML document
 ```
