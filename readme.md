@@ -4,5 +4,7 @@ sequenceDiagram
   participant browser
   participant server
   browser-->server: get page on that url
+  activate server
   server-->browser: HTML document
+  deactivate server
 ```
